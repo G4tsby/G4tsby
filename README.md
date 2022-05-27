@@ -25,4 +25,10 @@
 ![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=C&logoColor=ffffff)
 ![C++](https://img.shields.io/badge/C%2b%2b-00599C?style=for-the-badge&logo=C%2b%2b&logoColor=ffffff)
 ![JAVA](https://img.shields.io/badge/JAVA-007396?style=for-the-badge&logo=JAVA&logoColor=ffffff)
+  
+ <br> <br>
+  
+[![G4tsby's languages](https://github-readme-stats.vercel.app/api/top-langs/?username=G4tsby&layout=compact&hide=javascript,html)](https://github.com/anuraghazra/github-readme-stats)
+  
+![G4tsby's github stats](https://github-readme-stats.vercel.app/api?username=G4tsby&show_icons=true&count_private=true)
 </div>
