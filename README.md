@@ -28,7 +28,7 @@
   
  <br> <br>
   
-[![G4tsby's languages](https://github-readme-stats.vercel.app/api/top-langs/?username=G4tsby&layout=compact&hide=javascript,html)](https://github.com/anuraghazra/github-readme-stats)
+[![G4tsby's languages](https://github-readme-stats.vercel.app/api/top-langs/?username=G4tsby&layout=compact&hide=javascript,html,css)](https://github.com/anuraghazra/github-readme-stats)
   
 ![G4tsby's github stats](https://github-readme-stats.vercel.app/api?username=G4tsby&show_icons=true&count_private=true)
 </div>
