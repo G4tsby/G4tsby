@@ -10,11 +10,6 @@
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=ffffff)
 ![FastAPI](https://img.shields.io/badge/fastapi-009688?style=for-the-badge&logo=fastapi&logoColor=ffffff)
 ![Transformers](https://img.shields.io/badge/transformers-FFD21E?style=for-the-badge&logo=huggingface&logoColor=ffffff)
-<br>
-![PyCharm](https://img.shields.io/badge/PyCharm-7BB972?style=for-the-badge&logo=PyCharm&logoColor=ffffff)
-![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=Ubuntu&logoColor=ffffff)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=ffffff)
-<br><br><br>
   
  <br> <br>
   
