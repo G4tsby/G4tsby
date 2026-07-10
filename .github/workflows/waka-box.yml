@@ -1,0 +1,30 @@
+name: Update waka-box gist
+
+# Required secrets: WAKA_GH_TOKEN, WAKA_GIST_ID, WAKATIME_API_KEY
+
+on:
+  schedule:
+    - cron: "15 0 * * *"
+  workflow_dispatch:
+
+permissions: {}
+
+concurrency:
+  group: waka-box
+  cancel-in-progress: true
+
+jobs:
+  update-gist:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      # matchai/waka-box@v5.0.0 is archived and requires the removed Node.js 16
+      # runtime. This maintained Marketplace action provides the same pinned-Gist
+      # behavior on a supported runtime.
+      - name: Update waka-box gist
+        uses: abordage/wakatime-box@cbf6b5d47e955accd35d84eb56a608cc528e615e # v3.0.0
+        with:
+          GH_TOKEN: ${{ secrets.WAKA_GH_TOKEN }}
+          GIST_ID: ${{ secrets.WAKA_GIST_ID }}
+          WAKA_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          DATE_RANGE: last_7_days

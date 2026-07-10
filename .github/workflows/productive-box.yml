@@ -1,0 +1,27 @@
+name: Update productive-box gist
+
+# Required secrets: PRODUCTIVE_GH_TOKEN, PRODUCTIVE_GIST_ID
+# Optional repository variable: TIMEZONE (defaults to Asia/Seoul)
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+permissions: {}
+
+concurrency:
+  group: productive-box
+  cancel-in-progress: true
+
+jobs:
+  update-gist:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Update productive-box gist
+        uses: maxam2017/productive-box@94a79b346d2c07214d7587ba66138d415ac9c33c # v1.2.0
+        env:
+          GH_TOKEN: ${{ secrets.PRODUCTIVE_GH_TOKEN }}
+          GIST_ID: ${{ secrets.PRODUCTIVE_GIST_ID }}
+          TIMEZONE: ${{ vars.TIMEZONE || 'Asia/Seoul' }}
