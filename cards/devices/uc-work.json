@@ -1,7 +1,7 @@
 {
   "version": 1,
   "device": "uc-work",
-  "updatedAt": "2026-07-24T00:37:05.875Z",
+  "updatedAt": "2026-07-27T00:37:06.209Z",
   "daily": [
     {
       "agent": "all",
@@ -622,49 +622,59 @@
     },
     {
       "agent": "all",
-      "cacheCreationTokens": 0,
-      "cacheReadTokens": 1090816,
-      "inputTokens": 103822,
+      "cacheCreationTokens": 233206,
+      "cacheReadTokens": 48733740,
+      "inputTokens": 1330825,
       "metadata": {
         "agents": [
+          "claude",
           "codex"
         ]
       },
       "modelBreakdowns": [
         {
           "cacheCreationTokens": 0,
-          "cacheReadTokens": 1090816,
-          "cost": 1.235308,
-          "inputTokens": 103822,
+          "cacheReadTokens": 24252160,
+          "cost": 21.55689,
+          "inputTokens": 1330562,
           "modelName": "gpt-5.6-sol",
-          "outputTokens": 5693
+          "outputTokens": 92600
+        },
+        {
+          "cacheCreationTokens": 233206,
+          "cacheReadTokens": 24481580,
+          "cost": 17.325989999999994,
+          "inputTokens": 263,
+          "modelName": "claude-opus-4-8",
+          "outputTokens": 110073
         }
       ],
       "modelsUsed": [
+        "claude-opus-4-8",
         "gpt-5.6-sol"
       ],
-      "outputTokens": 5693,
+      "outputTokens": 202673,
       "period": "2026-07-24",
-      "totalCost": 1.235308,
-      "totalTokens": 1200331
+      "totalCost": 38.88287999999999,
+      "totalTokens": 50500444
     }
   ],
   "totals": {
-    "cacheCreationTokens": 11999197,
-    "cacheReadTokens": 844007466,
-    "inputTokens": 30294998,
-    "outputTokens": 4800236,
-    "totalCost": 1120.4883317500003,
-    "totalTokens": 891447379
+    "cacheCreationTokens": 12232403,
+    "cacheReadTokens": 891650390,
+    "inputTokens": 31522001,
+    "outputTokens": 4997216,
+    "totalCost": 1158.1359037500001,
+    "totalTokens": 940747492
   },
   "tools": [
     [
       "Claude Code",
-      783.7842237500004
+      801.1102137500002
     ],
     [
       "Codex",
-      336.70410799999996
+      357.02569
     ]
   ]
 }
