@@ -1,7 +1,7 @@
 {
   "version": 1,
   "device": "uc-work",
-  "updatedAt": "2026-08-27T00:37:05.871Z",
+  "updatedAt": "2026-08-28T00:37:05.788Z",
   "daily": [
     {
       "agent": "all",
@@ -476,9 +476,9 @@
     },
     {
       "agent": "all",
-      "cacheCreationTokens": 1713120,
-      "cacheReadTokens": 168378279,
-      "inputTokens": 2248357,
+      "cacheCreationTokens": 1270373,
+      "cacheReadTokens": 133988054,
+      "inputTokens": 2247428,
       "metadata": {
         "agents": [
           "claude",
@@ -487,12 +487,12 @@
       },
       "modelBreakdowns": [
         {
-          "cacheCreationTokens": 985923,
-          "cacheReadTokens": 82542120,
-          "cost": 125.04212,
-          "inputTokens": 589,
+          "cacheCreationTokens": 780325,
+          "cacheReadTokens": 68266952,
+          "cost": 100.18215200000002,
+          "inputTokens": 410,
           "modelName": "claude-fable-5",
-          "outputTokens": 455513
+          "outputTokens": 326092
         },
         {
           "cacheCreationTokens": 0,
@@ -501,14 +501,6 @@
           "inputTokens": 2246688,
           "modelName": "gpt-5.6-sol",
           "outputTokens": 268983
-        },
-        {
-          "cacheCreationTokens": 237149,
-          "cacheReadTokens": 20115057,
-          "cost": 15.7313685,
-          "inputTokens": 750,
-          "modelName": "claude-opus-4-8",
-          "outputTokens": 131944
         },
         {
           "cacheCreationTokens": 490048,
@@ -521,20 +513,19 @@
       ],
       "modelsUsed": [
         "claude-fable-5",
-        "claude-opus-4-8",
         "claude-opus-5",
         "gpt-5.6-sol"
       ],
-      "outputTokens": 1049080,
+      "outputTokens": 787715,
       "period": "2026-07-27",
-      "totalCost": 190.1383351000002,
-      "totalTokens": 173388836
+      "totalCost": 149.54699860000005,
+      "totalTokens": 138293570
     },
     {
       "agent": "all",
-      "cacheCreationTokens": 2713903,
-      "cacheReadTokens": 140820140,
-      "inputTokens": 1407217,
+      "cacheCreationTokens": 1141870,
+      "cacheReadTokens": 71328432,
+      "inputTokens": 1406453,
       "metadata": {
         "agents": [
           "claude",
@@ -543,12 +534,12 @@
       },
       "modelBreakdowns": [
         {
-          "cacheCreationTokens": 2030350,
-          "cacheReadTokens": 93710448,
-          "cost": 161.49498299999993,
-          "inputTokens": 1116,
+          "cacheCreationTokens": 1141870,
+          "cacheReadTokens": 32212656,
+          "cost": 67.00696599999999,
+          "inputTokens": 491,
           "modelName": "claude-fable-5",
-          "outputTokens": 561461
+          "outputTokens": 239040
         },
         {
           "cacheCreationTokens": 0,
@@ -557,34 +548,16 @@
           "inputTokens": 1405962,
           "modelName": "gpt-5.6-sol",
           "outputTokens": 143752
-        },
-        {
-          "cacheCreationTokens": 545021,
-          "cacheReadTokens": 5980645,
-          "cost": 9.0163975,
-          "inputTokens": 43,
-          "modelName": "claude-opus-4-8",
-          "outputTokens": 23026
-        },
-        {
-          "cacheCreationTokens": 138532,
-          "cacheReadTokens": 2013271,
-          "cost": 2.3936154999999997,
-          "inputTokens": 96,
-          "modelName": "claude-opus-5",
-          "outputTokens": 20827
         }
       ],
       "modelsUsed": [
         "claude-fable-5",
-        "claude-opus-4-8",
-        "claude-opus-5",
         "gpt-5.6-sol"
       ],
-      "outputTokens": 749066,
+      "outputTokens": 382792,
       "period": "2026-07-28",
-      "totalCost": 197.05019439999987,
-      "totalTokens": 145690326
+      "totalCost": 91.15216439999999,
+      "totalTokens": 74259547
     },
     {
       "agent": "all",
@@ -1322,9 +1295,9 @@
     },
     {
       "agent": "all",
-      "cacheCreationTokens": 96748,
-      "cacheReadTokens": 813226,
-      "inputTokens": 20,
+      "cacheCreationTokens": 3674894,
+      "cacheReadTokens": 72322663,
+      "inputTokens": 1386,
       "metadata": {
         "agents": [
           "claude"
@@ -1332,35 +1305,63 @@
       },
       "modelBreakdowns": [
         {
-          "cacheCreationTokens": 96748,
-          "cacheReadTokens": 813226,
-          "cost": 3.2928859999999993,
-          "inputTokens": 20,
+          "cacheCreationTokens": 3674894,
+          "cacheReadTokens": 72322663,
+          "cost": 157.32137049999994,
+          "inputTokens": 1386,
           "modelName": "claude-fable-5",
-          "outputTokens": 10890
+          "outputTokens": 544762
         }
       ],
       "modelsUsed": [
         "claude-fable-5"
       ],
-      "outputTokens": 10890,
+      "outputTokens": 544762,
       "period": "2026-08-27",
-      "totalCost": 3.2928859999999993,
-      "totalTokens": 920884
+      "totalCost": 157.32137049999994,
+      "totalTokens": 76543705
+    },
+    {
+      "agent": "all",
+      "cacheCreationTokens": 303616,
+      "cacheReadTokens": 302512,
+      "inputTokens": 4,
+      "metadata": {
+        "agents": [
+          "claude"
+        ]
+      },
+      "modelBreakdowns": [
+        {
+          "cacheCreationTokens": 303616,
+          "cacheReadTokens": 302512,
+          "cost": 6.614372,
+          "inputTokens": 4,
+          "modelName": "claude-fable-5",
+          "outputTokens": 4790
+        }
+      ],
+      "modelsUsed": [
+        "claude-fable-5"
+      ],
+      "outputTokens": 4790,
+      "period": "2026-08-28",
+      "totalCost": 6.614372,
+      "totalTokens": 610922
     }
   ],
   "totals": {
-    "cacheCreationTokens": 63106729,
-    "cacheReadTokens": 2447915858,
-    "inputTokens": 36071479,
-    "outputTokens": 16047281,
-    "totalCost": 3829.57940975,
-    "totalTokens": 2563486829
+    "cacheCreationTokens": 64973711,
+    "cacheReadTokens": 2415845874,
+    "inputTokens": 36071156,
+    "outputTokens": 15958304,
+    "totalCost": 3843.73289975,
+    "totalTokens": 2533194527
   },
   "tools": [
     [
       "Claude Code",
-      3425.9729589500002
+      3440.12644895
     ],
     [
       "Codex",
