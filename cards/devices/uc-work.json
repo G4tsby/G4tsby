@@ -1,7 +1,7 @@
 {
   "version": 1,
   "device": "uc-work",
-  "updatedAt": "2026-09-04T00:37:12.644Z",
+  "updatedAt": "2026-09-07T00:37:13.360Z",
   "daily": [
     {
       "agent": "all",
@@ -1490,49 +1490,59 @@
     },
     {
       "agent": "all",
-      "cacheCreationTokens": 18350,
-      "cacheReadTokens": 285825,
-      "inputTokens": 277,
+      "cacheCreationTokens": 3540566,
+      "cacheReadTokens": 63231197,
+      "inputTokens": 40027,
       "metadata": {
         "agents": [
-          "claude"
+          "claude",
+          "codex"
         ]
       },
       "modelBreakdowns": [
         {
-          "cacheCreationTokens": 18350,
-          "cacheReadTokens": 285825,
-          "cost": 0.5962762500000001,
-          "inputTokens": 277,
+          "cacheCreationTokens": 3540566,
+          "cacheReadTokens": 63167197,
+          "cost": 103.02224174999996,
+          "inputTokens": 24251,
           "modelName": "claude-fable-5-1",
-          "outputTokens": 3101
+          "outputTokens": 502150
+        },
+        {
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 64000,
+          "cost": 0.100684,
+          "inputTokens": 15776,
+          "modelName": "gpt-5.6-sol",
+          "outputTokens": 599
         }
       ],
       "modelsUsed": [
-        "claude-fable-5-1"
+        "claude-fable-5-1",
+        "gpt-5.6-sol"
       ],
-      "outputTokens": 3101,
+      "outputTokens": 502749,
       "period": "2026-09-04",
-      "totalCost": 0.5962762500000001,
-      "totalTokens": 307553
+      "totalCost": 103.12292574999996,
+      "totalTokens": 67314539
     }
   ],
   "totals": {
-    "totalTokens": 2841032317,
-    "inputTokens": 36417396,
-    "outputTokens": 17834326,
-    "cacheCreationTokens": 76930367,
-    "cacheReadTokens": 2709850228,
-    "totalCost": 4357.293592250001
+    "totalTokens": 2908039303,
+    "inputTokens": 36457146,
+    "outputTokens": 18333974,
+    "cacheCreationTokens": 80452583,
+    "cacheReadTokens": 2772795600,
+    "totalCost": 4459.820241750001
   },
   "tools": [
     [
       "Claude Code",
-      3953.687141450001
+      4056.1131069500007
     ],
     [
       "Codex",
-      403.6064507999999
+      403.7071347999999
     ]
   ]
 }
