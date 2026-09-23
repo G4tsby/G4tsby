@@ -1,7 +1,7 @@
 {
   "version": 1,
   "device": "uc-work",
-  "updatedAt": "2026-09-22T00:37:15.210Z",
+  "updatedAt": "2026-09-23T00:37:10.058Z",
   "daily": [
     {
       "agent": "all",
@@ -1900,9 +1900,9 @@
     },
     {
       "agent": "all",
-      "cacheCreationTokens": 316495,
-      "cacheReadTokens": 6694263,
-      "inputTokens": 432,
+      "cacheCreationTokens": 873471,
+      "cacheReadTokens": 7111786,
+      "inputTokens": 460,
       "metadata": {
         "agents": [
           "claude"
@@ -1910,35 +1910,44 @@
       },
       "modelBreakdowns": [
         {
-          "cacheCreationTokens": 316495,
-          "cacheReadTokens": 6694263,
-          "cost": 9.13813575,
-          "inputTokens": 432,
+          "cacheCreationTokens": 843214,
+          "cacheReadTokens": 7063581,
+          "cost": 20.201085250000006,
+          "inputTokens": 456,
           "modelName": "claude-fable-5-1",
-          "outputTokens": 22607
+          "outputTokens": 31327
+        },
+        {
+          "cacheCreationTokens": 30257,
+          "cacheReadTokens": 48205,
+          "cost": 0.3577675,
+          "inputTokens": 4,
+          "modelName": "claude-opus-5",
+          "outputTokens": 1243
         }
       ],
       "modelsUsed": [
-        "claude-fable-5-1"
+        "claude-fable-5-1",
+        "claude-opus-5"
       ],
-      "outputTokens": 22607,
+      "outputTokens": 32570,
       "period": "2026-09-22",
-      "totalCost": 9.13813575,
-      "totalTokens": 7033797
+      "totalCost": 20.558852750000007,
+      "totalTokens": 8018287
     }
   ],
   "totals": {
-    "totalTokens": 4008941241,
-    "inputTokens": 36726293,
-    "outputTokens": 25127589,
-    "cacheCreationTokens": 118294317,
-    "cacheReadTokens": 3828793042,
-    "totalCost": 5677.270483200002
+    "totalTokens": 4009925731,
+    "inputTokens": 36726321,
+    "outputTokens": 25137552,
+    "cacheCreationTokens": 118851293,
+    "cacheReadTokens": 3829210565,
+    "totalCost": 5688.691200200002
   },
   "tools": [
     [
       "Claude Code",
-      5275.6250518000015
+      5287.0457688000015
     ],
     [
       "Codex",
