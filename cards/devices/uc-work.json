@@ -1,7 +1,7 @@
 {
   "version": 1,
   "device": "uc-work",
-  "updatedAt": "2026-09-23T00:37:10.058Z",
+  "updatedAt": "2026-09-28T00:37:06.485Z",
   "daily": [
     {
       "agent": "all",
@@ -1934,20 +1934,76 @@
       "period": "2026-09-22",
       "totalCost": 20.558852750000007,
       "totalTokens": 8018287
+    },
+    {
+      "agent": "all",
+      "cacheCreationTokens": 33997,
+      "cacheReadTokens": 163164,
+      "inputTokens": 98,
+      "metadata": {
+        "agents": [
+          "claude"
+        ]
+      },
+      "modelBreakdowns": [
+        {
+          "cacheCreationTokens": 33997,
+          "cacheReadTokens": 163164,
+          "cost": 0.8724610000000002,
+          "inputTokens": 98,
+          "modelName": "claude-fable-5-1",
+          "outputTokens": 3015
+        }
+      ],
+      "modelsUsed": [
+        "claude-fable-5-1"
+      ],
+      "outputTokens": 3015,
+      "period": "2026-09-23",
+      "totalCost": 0.8724610000000002,
+      "totalTokens": 200274
+    },
+    {
+      "agent": "all",
+      "cacheCreationTokens": 16643,
+      "cacheReadTokens": 22964,
+      "inputTokens": 2,
+      "metadata": {
+        "agents": [
+          "claude"
+        ]
+      },
+      "modelBreakdowns": [
+        {
+          "cacheCreationTokens": 16643,
+          "cacheReadTokens": 22964,
+          "cost": 0.1499248,
+          "inputTokens": 2,
+          "modelName": "claude-opus-5-5",
+          "outputTokens": 609
+        }
+      ],
+      "modelsUsed": [
+        "claude-opus-5-5"
+      ],
+      "outputTokens": 609,
+      "period": "2026-09-28",
+      "totalCost": 0.1499248,
+      "totalTokens": 40218
     }
   ],
   "totals": {
-    "totalTokens": 4009925731,
-    "inputTokens": 36726321,
-    "outputTokens": 25137552,
-    "cacheCreationTokens": 118851293,
-    "cacheReadTokens": 3829210565,
-    "totalCost": 5688.691200200002
+    "totalTokens": 4010166223,
+    "inputTokens": 36726421,
+    "outputTokens": 25141176,
+    "cacheCreationTokens": 118901933,
+    "cacheReadTokens": 3829396693,
+    "totalCost": 5689.713586000002
   },
   "tools": [
     [
       "Claude Code",
-      5287.0457688000015
+      5288.068154600001
     ],
     [
       "Codex",
