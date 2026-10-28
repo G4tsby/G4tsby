@@ -1,7 +1,7 @@
 {
   "version": 1,
   "device": "uc-work",
-  "updatedAt": "2026-10-27T00:37:07.777Z",
+  "updatedAt": "2026-10-28T00:37:08.144Z",
   "daily": [
     {
       "agent": "all",
@@ -2458,9 +2458,9 @@
     },
     {
       "agent": "all",
-      "cacheCreationTokens": 50634,
-      "cacheReadTokens": 515257,
-      "inputTokens": 226,
+      "cacheCreationTokens": 1433305,
+      "cacheReadTokens": 24900732,
+      "inputTokens": 5520,
       "metadata": {
         "agents": [
           "claude"
@@ -2468,35 +2468,44 @@
       },
       "modelBreakdowns": [
         {
-          "cacheCreationTokens": 50634,
-          "cacheReadTokens": 515257,
-          "cost": 1.45945425,
-          "inputTokens": 226,
+          "cacheCreationTokens": 1431964,
+          "cacheReadTokens": 24769488,
+          "cost": 46.684132,
+          "inputTokens": 5518,
           "modelName": "claude-fable-5-1",
-          "outputTokens": 6314
+          "outputTokens": 235946
+        },
+        {
+          "cacheCreationTokens": 1341,
+          "cacheReadTokens": 131244,
+          "cost": 0.104367,
+          "inputTokens": 2,
+          "modelName": "claude-opus-4-8",
+          "outputTokens": 1013
         }
       ],
       "modelsUsed": [
-        "claude-fable-5-1"
+        "claude-fable-5-1",
+        "claude-opus-4-8"
       ],
-      "outputTokens": 6314,
+      "outputTokens": 236959,
       "period": "2026-10-27",
-      "totalCost": 1.45945425,
-      "totalTokens": 572431
+      "totalCost": 46.788499,
+      "totalTokens": 26576516
     }
   ],
   "totals": {
-    "totalTokens": 5003206787,
-    "inputTokens": 36791957,
-    "outputTokens": 29393751,
-    "cacheCreationTokens": 143920705,
-    "cacheReadTokens": 4793100374,
-    "totalCost": 6638.363622615002
+    "totalTokens": 5029210872,
+    "inputTokens": 36797251,
+    "outputTokens": 29624396,
+    "cacheCreationTokens": 145303376,
+    "cacheReadTokens": 4817485849,
+    "totalCost": 6683.692667365002
   },
   "tools": [
     [
       "Claude Code",
-      6236.718191215002
+      6282.047235965002
     ],
     [
       "Codex",
