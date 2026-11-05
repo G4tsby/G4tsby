@@ -1,7 +1,7 @@
 {
   "version": 1,
   "device": "uc-work",
-  "updatedAt": "2026-11-04T01:18:47.231Z",
+  "updatedAt": "2026-11-05T00:37:07.626Z",
   "daily": [
     {
       "agent": "all",
@@ -2650,20 +2650,48 @@
       "period": "2026-11-03",
       "totalCost": 0.9487027999999998,
       "totalTokens": 1251396
+    },
+    {
+      "agent": "all",
+      "cacheCreationTokens": 124660,
+      "cacheReadTokens": 3824080,
+      "inputTokens": 90,
+      "metadata": {
+        "agents": [
+          "claude"
+        ]
+      },
+      "modelBreakdowns": [
+        {
+          "cacheCreationTokens": 124660,
+          "cacheReadTokens": 3824080,
+          "cost": 2.299996,
+          "inputTokens": 90,
+          "modelName": "claude-opus-5-5",
+          "outputTokens": 26877
+        }
+      ],
+      "modelsUsed": [
+        "claude-opus-5-5"
+      ],
+      "outputTokens": 26877,
+      "period": "2026-11-04",
+      "totalCost": 2.299996,
+      "totalTokens": 3975707
     }
   ],
   "totals": {
-    "totalTokens": 5173564359,
-    "inputTokens": 36816289,
-    "outputTokens": 30639338,
-    "cacheCreationTokens": 150643612,
-    "cacheReadTokens": 4955465120,
-    "totalCost": 6858.196156615003
+    "totalTokens": 5177540066,
+    "inputTokens": 36816379,
+    "outputTokens": 30666215,
+    "cacheCreationTokens": 150768272,
+    "cacheReadTokens": 4959289200,
+    "totalCost": 6860.496152615003
   },
   "tools": [
     [
       "Claude Code",
-      6456.550725215003
+      6458.8507212150025
     ],
     [
       "Codex",
