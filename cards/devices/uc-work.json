@@ -1,7 +1,7 @@
 {
   "version": 1,
   "device": "uc-work",
-  "updatedAt": "2026-11-11T00:37:07.959Z",
+  "updatedAt": "2026-11-12T00:39:32.362Z",
   "daily": [
     {
       "agent": "all",
@@ -2810,20 +2810,97 @@
       "period": "2026-11-10",
       "totalCost": 47.864484600000004,
       "totalTokens": 51353285
+    },
+    {
+      "agent": "all",
+      "cacheCreationTokens": 2088653,
+      "cacheReadTokens": 69990819,
+      "inputTokens": 4195021,
+      "metadata": {
+        "agents": [
+          "antigravity",
+          "claude"
+        ]
+      },
+      "modelBreakdowns": [
+        {
+          "cacheCreation1hTokens": 1551571,
+          "cacheCreationTokens": 1551571,
+          "cacheReadTokens": 49785139,
+          "cost": 42.00852379999997,
+          "inputTokens": 430,
+          "modelName": "claude-fable-5-2",
+          "outputTokens": 180573
+        },
+        {
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 10751875,
+          "cost": 22.702794999999995,
+          "inputTokens": 4194415,
+          "modelName": "gemini-4-carbon",
+          "outputTokens": 62816
+        },
+        {
+          "cacheCreation1hTokens": 537082,
+          "cacheCreationTokens": 537082,
+          "cacheReadTokens": 9453805,
+          "cost": 7.264520999999998,
+          "inputTokens": 176,
+          "modelName": "claude-opus-5-5",
+          "outputTokens": 53820
+        }
+      ],
+      "modelsUsed": [
+        "claude-fable-5-2",
+        "gemini-4-carbon",
+        "claude-opus-5-5"
+      ],
+      "outputTokens": 297209,
+      "period": "2026-11-11",
+      "totalCost": 71.97583979999996,
+      "totalTokens": 76571702
+    },
+    {
+      "agent": "all",
+      "cacheCreationTokens": 0,
+      "cacheReadTokens": 0,
+      "inputTokens": 241074,
+      "metadata": {
+        "agents": [
+          "antigravity"
+        ]
+      },
+      "modelBreakdowns": [
+        {
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0.9730359999999999,
+          "inputTokens": 241074,
+          "modelName": "gemini-4-carbon",
+          "outputTokens": 195
+        }
+      ],
+      "modelsUsed": [
+        "gemini-4-carbon"
+      ],
+      "outputTokens": 195,
+      "period": "2026-11-12",
+      "totalCost": 0.9730359999999999,
+      "totalTokens": 241269
     }
   ],
   "totals": {
-    "totalTokens": 5243957516,
-    "inputTokens": 36817611,
-    "outputTokens": 31127136,
-    "cacheCreationTokens": 152983360,
-    "cacheReadTokens": 5023029409,
-    "totalCost": 6918.186819065002
+    "totalTokens": 5320770487,
+    "inputTokens": 41253706,
+    "outputTokens": 31424540,
+    "cacheCreationTokens": 155072013,
+    "cacheReadTokens": 5093020228,
+    "totalCost": 6991.135694865003
   },
   "tools": [
     [
       "Claude Code",
-      6516.541387665002
+      6589.4902634650025
     ],
     [
       "Codex",
