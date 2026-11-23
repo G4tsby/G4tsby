@@ -1,7 +1,7 @@
 {
   "version": 1,
   "device": "uc-work",
-  "updatedAt": "2026-11-20T00:37:11.032Z",
+  "updatedAt": "2026-11-23T00:37:11.104Z",
   "daily": [
     {
       "agent": "all",
@@ -3093,20 +3093,98 @@
       "period": "2026-11-19",
       "totalCost": 20.72222015,
       "totalTokens": 20919081
+    },
+    {
+      "agent": "all",
+      "cacheCreationTokens": 2078526,
+      "cacheReadTokens": 19687902,
+      "inputTokens": 194896,
+      "metadata": {
+        "agents": [
+          "antigravity",
+          "claude"
+        ]
+      },
+      "modelBreakdowns": [
+        {
+          "cacheCreation1hTokens": 1473200,
+          "cacheCreationTokens": 1779269,
+          "cacheReadTokens": 17887889,
+          "cost": 35.50577180000001,
+          "inputTokens": 338,
+          "modelName": "claude-fable-5-2",
+          "outputTokens": 132340
+        },
+        {
+          "cacheCreation1hTokens": 299257,
+          "cacheCreationTokens": 299257,
+          "cacheReadTokens": 1689598,
+          "cost": 2.902495599999999,
+          "inputTokens": 50,
+          "modelName": "claude-opus-5-5",
+          "outputTokens": 8516
+        },
+        {
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 110415,
+          "cost": 1.7839012500000002,
+          "inputTokens": 194508,
+          "modelName": "gemini-4-neon",
+          "outputTokens": 18830
+        }
+      ],
+      "modelsUsed": [
+        "claude-fable-5-2",
+        "claude-opus-5-5",
+        "gemini-4-neon"
+      ],
+      "outputTokens": 159686,
+      "period": "2026-11-20",
+      "totalCost": 40.19216865000001,
+      "totalTokens": 22121010
+    },
+    {
+      "agent": "all",
+      "cacheCreationTokens": 80791,
+      "cacheReadTokens": 0,
+      "inputTokens": 2,
+      "metadata": {
+        "agents": [
+          "claude"
+        ]
+      },
+      "modelBreakdowns": [
+        {
+          "cacheCreation1hTokens": 80791,
+          "cacheCreationTokens": 80791,
+          "cacheReadTokens": 0,
+          "cost": 0.679916,
+          "inputTokens": 2,
+          "modelName": "claude-opus-5-5",
+          "outputTokens": 1679
+        }
+      ],
+      "modelsUsed": [
+        "claude-opus-5-5"
+      ],
+      "outputTokens": 1679,
+      "period": "2026-11-23",
+      "totalCost": 0.679916,
+      "totalTokens": 82472
     }
   ],
   "totals": {
-    "totalTokens": 5769111691,
-    "inputTokens": 42454631,
-    "outputTokens": 33384264,
-    "cacheCreationTokens": 164983578,
-    "cacheReadTokens": 5528289218,
-    "totalCost": 7294.199754615002
+    "totalTokens": 5791315173,
+    "inputTokens": 42649529,
+    "outputTokens": 33545629,
+    "cacheCreationTokens": 167142895,
+    "cacheReadTokens": 5547977120,
+    "totalCost": 7335.071839265002
   },
   "tools": [
     [
       "Claude Code",
-      6892.554323215002
+      6933.426407865002
     ],
     [
       "Codex",
